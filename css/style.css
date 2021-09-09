@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+.main_header{
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    background: transparent;
+    z-index: 99999;
+}
+
+.navbar_font{
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    line-height: 20px;
+    font-size: 13px;
+}
+.banner_font{
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    line-height: 20px;
+    font-size: 60px;
+    font-weight: 700;
+    line-height:75px;
+    color:#ffffff;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    Color:#c4cfde;
+    font-size: 16px!important;
+    line-height: 30px!important;
+    font-weight: 400!important;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    Color:#ffffff;
+    line-height: 75px;
+    font-size: 60px;
+    font-weight:700!important;
+    display: inline;
+}
+h2,.typing{
+    font-size: 48px;
+    color:#ffffff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h6{
+    font-family: 'Montserrat', sans-serif;
+    Color:#f9004d;
+    line-height: 14px;
+    font-size: 14px;
+    font-weight:500;
+}
+
+span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color:#ff014f;
+
+}
+.wrapper{
+    background: #212428;
+}
+.container{
+    padding: 24px;
+    width: 92%;
+    margin: 0 auto;
+}
+.main_header{
+    height: 70px;
+    display: flex;
+    color:transparent;
+}
+.brand{
+    flex:32%;
+}
+.navbar{
+    flex:68%;
+    margin-left: 120px;
+    justify-content: flex-end;
+}
+.buy_now_btn{
+    flex:10%;
+    text-align: center;
+}
+.main_header .navbar ul {
+    list-style: none;
+    padding-top: 27px;
+}
+.main_header .navbar ul li{
+    display: inline;
+    padding: 2%;
+}
+.main_header .navbar ul li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(196, 196, 196);
+    line-height: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.main_header .navbar ul li a:hover{
+    color:whitesmoke;
+}
+.active{
+    color:#fff!important;
+}
+    
+.main_header .button {
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    border: none;
+    color: #FF014F;
+    padding: 19px 22px;
+    display: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 11px -10px;
+    border-radius: 6px;
+    cursor: pointer;
+    display: inline-block;
+    box-shadow: 5px 5px 10px 5px #2d2d2d;
+    transition: .3s;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+
+  }
+  .main_header .button:hover{
+    transform: translateY(-3px);
+    background-color: #181A1E;
+    transition: .3s;
+  }
+  .banner{
+      margin-top: 10%;
+      display: flex;
+  }
+  .banner_content{
+      flex:50%;
+      display: block;
+  }
+  .banner_content p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color:#c4cfde;
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+  }
+.h1_clr{
+    color:#FF014F;
+  }
+  .banner h2{
+      padding-top:10px;
+  }
+  .banner_image{
+      flex:50%;
+  }
+  .mar_h3{
+      margin-top: 4%;
+  }
+  .banner_socal_icon{
+      display: flex;
+      flex-direction: row;
+      margin-top: 18%;
+
+  }
+  .social_icon{
+    flex:50%;
+  }
+  .skills_icon{
+      text-align: center;
+      flex:50%;
+      text-align: left;
+  }
+  .find{
+      font-family: Poppins, sans-serif;
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 21px;
+      color:#c4cfde;
+  }
+  .social_icon ul,.skills_icon ul{
+      list-style-type: none;
+      margin-top: 5%;
+  }
+  .social_icon ul li,.skills_icon ul li{
+      display:inline-block;
+      font-size: 20px;
+      padding-left: 5%;
+    
+  }
+
+  .social_icon ul li:nth-child(1),.skills_icon ul li:nth-child(1){
+      padding-left: 0%;
+  }
+  .social_icon ul li a,.skills_icon ul li a{
+    color:whitesmoke;
+    background: #181A1E;
+    padding: 18px;
+    border-radius: 12%;
+    box-shadow:0 0 20px rgb(43, 42, 42);
+    transition: 0.3s;
+  }
+
+  .social_icon ul li:hover{
+    transform: translateY(-3px);
+    transition: 0.3s;
+    
+  }
+  .social_icon ul li a .fa-facebook-f{
+    padding: 10px 4px!important;
+  }
+  .skills_icon ul li a .skill1{
+    padding: 10px 10px;
+  }
+  .skills_icon ul li a .skill2{
+    padding: 10px 0px;
+  }
+  .skills_icon ul li a .skill3{
+    padding: 10px 0px;
+  }
+  .banner_image{
+    position: relative;
+       
+  }
+  .banner_image figure{
+    position: absolute;
+    top: -75px;
+    left: 19%;
+    z-index: 35;
+    height: 144%;
+    width: 521px; 
+    overflow: hidden;
+  }
+  .banner_image img{
+    width:100%;
+    height:94%;
+  }
+  .banner_image:after{
+    position: absolute;
+    content: "";
+    top: 17%;
+    left: 19%;
+    right: -4%;
+    bottom: -100px;
+    background-color: #191a1d;
+    border-radius: 2%;
+  }
+
+
+  
