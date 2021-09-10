@@ -463,6 +463,78 @@ span{
     opacity: 1;
     transition: 0.7s ease-in-out;
   }
+
+  /* resume */
+  .resume{
+    text-align: center;
+  }
+  .resume_title{
+    color:#ff014f;
+  }
+/* .menu{
+    margin-top:10%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 20px #292c30;
+  } */
+    /* 
+  .menu .menu_list{
+    flex:25%;
+    padding:2%;
+    border-radius: 10px;
+    transition: 0.4s;
+  }
+  .menu .menu_list a{
+    text-decoration: none;
+    color:#bbbbbb;
+    font-size: 21px;
+  }
+  .menu .menu_list:hover,.menu .active{
+    background-color: #040505;
+    transition: 0.4s;
+    box-shadow: 0 0 20px #35363a;
+  } */
+
+  
+
+.tab {
+  overflow: hidden;
+  margin-top:10%;
+  box-shadow:0 0 19px #2d2b2b;
+  border-radius: 10px;
+}
+
+
+.tab button {
+  background-color: #212428;
+  margin: 0 auto;
+  padding-left: 10%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 29px 100px;
+  transition: 0.3s;
+  font-size: 21px;
+  color: #bbbbbb;
+  border-radius: 10px;
+}
+.tab button:hover {
+  background-color: #222529;
+  color:#ff014f;
+}
+.tab button.active {
+  background-color: #222529;
+  color:#ff014f!important;
+  box-shadow:0 0 19px #423f3f;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+
   
 
 
