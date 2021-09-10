@@ -69,10 +69,18 @@ span{
 .wrapper{
     background: #212428;
 }
+.top{
+    height: 900px;
+    background: #212428;
+}
 .container{
     padding: 24px;
     width: 92%;
     margin: 0 auto;
+}
+.border{
+    border-bottom: 2px solid rgb(24, 23, 23);
+    margin-top:15%;
 }
 .main_header{
     height: 70px;
@@ -258,6 +266,84 @@ span{
     background-color: #191a1d;
     border-radius: 2%;
   }
+  .feature_flex{
+      display: flex;
+      flex-direction: row;
+      margin-top:2%;
+      flex-wrap: wrap;
+  }
+  .feature_border_shape{
+    box-shadow:0 0 20px rgb(43, 42, 42);
+    padding: 20px;
+    margin-bottom: 4%;
+    border-radius: 3%;
+    overflow:hidden;
+    margin-left: 2%;
+    transition: 0.3s;
+  }
+  .feature_shape{
+    flex: 28%;
+    transition: 0.3s;
+  }
+  .feature_border_shape:nth-child(1),.feature_border_shape:nth-child(4){
+      margin-left: 0px;
+  }
+  .feature_shape h5{
+    margin-top: 8%;
+    font-family: Poppins, sans-serif;
+    font-size:23px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #bbbbbb;
+  }
+  .feature_x{
+    padding: 30px;
+    transition: 0.2s;
+  }
+  .feature_shape a {
+    font-size: 36px;
+    color:#ff014f;
+  }
+  .feature_shape p{
+    margin-top: 4%;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #bbbbbb;
+  }
+  .overflow_feature a .fa-arrow-right{
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .overflow_feature{
+    opacity: 0;
+  }
+  .feature_border_shape:hover{
+    background-color: #1B1E21;
+    
+  }
+  .feature_shape:hover{
+    opacity: 1;
+    transition:0.3s;
+    transform: translateY(-15px);
+    overflow: hidden;
+    
+  }
+  .feature_shape :hover .overflow_feature{
+    opacity: 1;
+    transition: 0.2s;
+  }
+  .border_low{
+    border-bottom: 2px solid rgb(24, 23, 23);
+    margin-top: 3%;
+  }
+  .portfolio{
+    text-align: center;
+    margin-top:5%;
+    padding-bottom: 3%;
+  }
+      
+
 
 
   
