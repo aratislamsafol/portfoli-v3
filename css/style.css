@@ -136,7 +136,7 @@ span{
     border-radius: 6px;
     cursor: pointer;
     display: inline-block;
-    box-shadow: 5px 5px 10px 5px #2d2d2d;
+    box-shadow: 0 0 50px #333333;
     transition: .3s;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
@@ -342,6 +342,130 @@ span{
     margin-top:5%;
     padding-bottom: 3%;
   }
+  .portfolio_flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4%;
+  }
+  .portfolio_fig{
+    flex: 28%;
+    transition: 0.8s;
+    margin-left:2%;
+    border-radius: 16px;
+    min-height: 442px;
+    box-shadow:0 0 20px rgb(43, 42, 42);
+    overflow: hidden;
+    margin-bottom:4%;
+  }
+  .portfolio_fig:nth-child(1),.portfolio_fig:nth-child(4){
+    margin-left: 0;
+  }
+
+  /* .work_design{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .work_port_border{
+    position: relative;
+    border-radius: 16px;
+    border:1px solid #23272b;
+    width: 350px;
+    height: 270px;
+
+    margin: 0 auto;
+  }
+  .work_img{
+    position: absolute;
+    top:10%;
+    height: 270px;
+    width: 300px;
+  }
+  .work_img img{
+    content:'';
+    position: absolute;
+    height: 100%;
+    width:100%;
+    left:0;
+  } */
+
+  .work_design{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .work_img{
+    position: relative;
+    height: 325px;
+    width: 338px;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .work_design .work_img img{
+    position:absolute;
+    top:12%;
+    left:0;
+    content:"";
+    height: auto;
+    width: 100%;
+    transition: 0.4s;
+    border-radius: 4%;
+
+  }
+  .portfolio_fig:hover .work_img img{
+    transform: scale(1.1);
+    transition: 0.4s;
+    border-radius: 4%;
+  } 
+  .work_caption{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-left: 7%;
+  }
+  .work_caption_left{
+    flex:80%;
+    
+  }
+  .work_caption_right{
+    flex:20%;
+    color:white;
+  }
+  .work_title{
+    display: inline-block;
+  }
+  .work_title h3{
+    font-family: Montserrat, sans-serif;
+    font-size: 23px!important;
+    line-height: 34px;
+    font-weight: 600;
+    padding-top:5%;
+  }
+  .work_title span{ 
+    font-size: 20px;
+    opacity: 0;
+    transition: 0.7s;
+    /* transform: rotate(20deg); */
+  }
+  .work_caption_right .fa-heart{
+    padding-right:5%;
+    font-size: 13px;
+  }
+  .portfolio_fig:hover{
+    background: #171A1E;
+    transition: 0.8s;
+  }
+  .work_caption:hover .work_title h3 {
+    color:#ff014f;
+  }
+  .work_title:hover .arrow {
+    opacity: 1;
+    transition: 0.7s ease-in-out;
+  }
+  
+
+
       
 
 
