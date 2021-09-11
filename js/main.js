@@ -20,3 +20,21 @@ var typed = new Typed('.typing', {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
   }
+
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    // autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:1
+        },
+        1000:{
+            items:1
+        }
+    }
+  })
+  
